@@ -27,7 +27,7 @@ const onPhoneInput = (evt) => {
     formattedInputValue = firstSymbols + " ";
 
     if (inputNumbersValue[0] == "8") {
-      phoneInputs[0].setAttribute("pattern", ".{17}");
+      phoneInputs[0].setAttribute("pattern", ".{17,}");
       console.log(phoneInputs[0].getAttribute("pattern"));
     }
 
