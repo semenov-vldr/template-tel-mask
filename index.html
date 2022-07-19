@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+      rel="stylesheet"
+    />
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <label class="form__item" for="phone">
+        Телефон*
+        <input
+          type="tel"
+          id="phone"
+          data-tel-input
+          name="user_phone"
+          maxlength="20"
+          placeholder="+7 (987) 123-45-67"
+          autocomplete="off"
+          pattern=".{18}"
+          required
+        />
+      </label>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

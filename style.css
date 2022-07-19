@@ -1,0 +1,33 @@
+html {
+  font-family: "Montserrat", serif;
+}
+
+.wrapper {
+ text-align: center;
+ margin-top: 300px;
+}
+
+label {
+  font-size: 20px;
+}
+
+input {
+  font-family: "Montserrat", serif;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  font-size: 20px;
+}
+
+input:focus {
+  outline: none;
+  border-color: black;
+}
+
+input:focus:valid {
+  border-color: green;
+}
+
+input:focus:invalid {
+  border-color: tomato;
+}
